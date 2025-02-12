@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PersonRepository {
-    private final String DB_URL = "jdbc:mysql://localhost/java-gevorderd";
-    private final String USERNAME = "root";
-    private final String PASSWORD = "SrdrBzkrt5yk8";
+    private final String DB_URL = "jdbc:mysql://localhost/*********";
+    private final String USERNAME = "*********";
+    private final String PASSWORD = "****************";
 
     public boolean insert(Person person){
         if(person.getFirstName() == null || person.getLastName() == null || person.getBirthDate() == null){
